@@ -24,17 +24,12 @@ msgid "Key Sequence"
 msgstr ""
 
 #. module: project_key
-#: model:ir.model,name:project_key.model_project_project
-msgid "Project"
-msgstr ""
-
-#. module: project_key
 #: sql_constraint:project.project:0
 msgid "Project key must be unique"
 msgstr ""
 
 #. module: project_key
-#: code:addons/project_key/models/project_project.py:120
+#: code:addons/project_key/models/project_project.py:121
 #, python-format
 msgid "Project task sequence for project "
 msgstr ""
@@ -52,6 +47,11 @@ msgstr ""
 #. module: project_key
 #: model:ir.model.fields,field_description:project_key.field_project_task__url
 msgid "URL"
+msgstr ""
+
+#. module: project_key
+#: model:ir.model,name:project_key.model_project_project
+msgid "WBS element"
 msgstr ""
 
 #. module: project_key
